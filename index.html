@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0d1117">
+  <title>Happy Birthday Shivank! 🎂⚡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow-bg"></div>
+  <div id="stars"></div>
+  <div id="particles"></div>
+
+  <main class="page">
+    <!-- Hero Section -->
+    <section class="hero glass">
+      <div class="badge">🔥 World's Best Younger Brother 👑</div>
+      <h1>Happy Birthday<br><span class="gradient-text">Shivank!</span> 🎂✨</h1>
+      <p class="intro">To my absolute partner-in-crime, the legendary younger brother, and the coolest guy in the house!</p>
+
+      <!-- Dynamic Polaroid Frame -->
+      <div class="photo-gallery">
+        <div class="polaroid-card tilt-left">
+          <div class="glow-ring"></div>
+          <img src="shivank1.jpeg" alt="Shivank Photo 1" class="main-photo" onerror="this.src='https://via.placeholder.com/400x400/161b22/ffffff?text=Add+shivank1.jpeg'">
+          <div class="photo-caption">Brothers for Life 😎</div>
+        </div>
+      </div>
+
+      <!-- Interactive Blow Candle Element -->
+      <div class="cake-container" id="cakeSection">
+        <div class="candle">
+          <div class="flame" id="flame"></div>
+        </div>
+        <div class="cake-emoji">🎂</div>
+        <p class="cake-instruction" id="cakeInstruction">Tap the flame to blow out your candle & make a wish!</p>
+      </div>
+
+      <button id="openBtn" class="magic-btn"><span>🎁</span> Unlock Brother's Vault</button>
+      <p class="hint">Tap above to reveal your surprise message!</p>
+    </section>
+
+    <!-- Message Section -->
+    <section id="message" class="message glass hidden">
+      <div class="sparkle">🎆</div>
+      <p class="eyebrow">A SPECIAL MESSAGE FOR MY YOUNGER BROTHER</p>
+      <h2>Dear Shivank 🥂</h2>
+
+      <div class="quote">
+        "Having a younger brother like you means always having a best friend, a teammate, and a constant reason to laugh."
+      </div>
+
+      <p>From backing each other up through everything to sharing inside jokes that no one else understands, having you as my younger brother is an absolute blessing.</p>
+
+      <p>Keep aiming high, chasing your dreams, and shining bright. I've always got your back no matter where life takes us!</p>
+
+      <!-- Second Photo Display -->
+      <div class="memory-card">
+        <div class="polaroid-card mini">
+          <img src="shivank2.jpeg" alt="Shivank Photo 2" onerror="this.src='https://via.placeholder.com/300x300/161b22/ffffff?text=Add+shivank2.jpeg'">
+        </div>
+        <div class="memory-text">
+          <strong>Brotherhood Unbreakable 💥</strong>
+          <span>Wishing you a year loaded with epic wins, top-tier happiness, good health, and success in everything you touch!</span>
+        </div>
+      </div>
+
+      <p class="final-line">Keep being the awesome, hilarious, and legendary brother you are! 🚀🔥</p>
+
+      <button id="celebrate" class="magic-btn secondary">💥 BLAST BIRTHDAY FIREWORKS!</button>
+      <p class="forever">Cheers to you today and always, Shivank! 🍻</p>
+    </section>
+
+    <footer>Crafted with love for my younger brother, Shivank 🎈</footer>
+  </main>
+
+  <button id="musicBtn" class="music-btn" aria-label="Toggle music">🎵</button>
+  <audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
